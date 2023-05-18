@@ -11,6 +11,8 @@
   --font-color: #EAEAEA;
   --font-color-date: #BEBEBF;
 
+  --font-family-bai: 'Bai Jamjuree', sans-serif;
+  --font-family-roboto: font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -20,14 +22,19 @@ nav {
 
 body {
   background: var(--bg-color);
-  color: var(--font-color)
+  color: var(--font-color);
+  font-family: var(--font-family-roboto);
 }
 
 .memory {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+
+  text-decoration: none;
+  margin-bottom: 6.4rem;
 }
+
 .date {
   color: var(--font-color-date);
   font-size: 1.2rem;
@@ -35,7 +42,11 @@ body {
 }
 
 .memory h1 {
+  color: var(--font-color);
   font-size: 3.2rem;
+  font-weight: 700;
+
+  text-decoration: none;
 }
 
 .memory img {
