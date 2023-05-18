@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+
+  --bg-color: #121215;
+  --font-color: #EAEAEA;
+  --font-color-date: #BEBEBF;
+
+}
+
+nav {
+  padding: 6.4rem;
+}
+
+
+body {
+  background: var(--bg-color);
+  color: var(--font-color)
+}
+
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.date {
+  color: var(--font-color-date);
+  font-size: 1.2rem;
+  line-height: 1.92rem;
+}
+
+.memory h1 {
+  font-size: 3.2rem;
+}
+
+.memory img {
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.memory p {
+  font: 1.8rem;
+  color: var(--font-color-date);
+  line-height: 2.8rem;
+}
